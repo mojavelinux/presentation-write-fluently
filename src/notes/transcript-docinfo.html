@@ -1,0 +1,86 @@
+<style>
+* {
+  color: #fff !important;
+}
+
+.sect1 + .sect1 {
+  border-top-color: #fff;
+}
+
+body {
+  background-color: #000;
+}
+
+#header, #content {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+h1 {
+  font-size: 3.157em;
+}
+
+h2 {
+  font-size: 3.157em;
+}
+
+h3 {
+  font-size: 2.369em;
+}
+
+p {
+  letter-spacing: 0;
+}
+
+div.paragraph > p, .verseblock pre, .quoteblock blockquote {
+  font-size: 1.777em !important;
+  /*word-spacing: -0.05em;*/
+  word-spacing: 0.05em;
+}
+
+*:not(pre) > code {
+  background-color: transparent;
+  border: 1px solid #fff; 
+}
+
+.literalblock pre {
+  font-size: 1.777em;
+  background-color: transparent;
+}
+
+.quoteblock blockquote p {
+  font-size: inherit !important;
+}
+
+.quoteblock blockquote, .quoteblock blockquote p {
+  text-align: left;
+}
+
+blockquote::before {
+  color: #000 !important;
+  text-shadow: 1px 1px 0 #fff !important;
+}
+
+.sidebarblock {
+  background-color: transparent;
+}
+
+.olist, .ulist {
+  font-size: 1.777em;
+}
+
+.olist p, .ulist p {
+  font-size: inherit;
+}
+
+/*
+.sectionbody > div.paragraph > p::first-line {
+  background-color: #e91e63 !important;
+}
+*/
+.sectionbody > div.paragraph > p {
+  background-image: linear-gradient(to right, #e91e63, #e91e63 50%, transparent 100%);
+  background-size: 100% 1.6em;
+  background-repeat: no-repeat;
+}
+</style>

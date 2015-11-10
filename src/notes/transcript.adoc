@@ -3,6 +3,8 @@ TODO
 - vim-like moving around with keys (perhaps in sentence-per-line section?)
 ////
 = 7 Ways to Hack Your Brain to Write Fluently: Transcript
+:docinfo: private-head
+:nofooter:
 :sectnums:
 ifdef::env-browser[:toc: macro]
 
