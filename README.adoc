@@ -1,0 +1,41 @@
+= 7 Ways to Hack Your Brain to Write Fluently
+Dan Allen <http://opendevise.io>
+:track: Methodology & DevOps
+
+[abstract]
+--
+//tag::abstract[]
+Your brain can be a tyrant.
+It likes to hold ideas captive, leaving you to stare down the cursor against the backdrop of a blank page.
+We're going to set those ideas free and even get the brain to do your bidding.
+
+You see, just like a computer, your brain can be hacked.
+We can play little tricks on it so it gives up those ideas and gets the cursor dancing across the screen.
+Come learn about 7 techniques I use to hack my brain so I can write fluently.
+
+You'll never look at a blank page the same way again, and it won't be for long.
+//end::abstract[]
+--
+
+== View slides locally
+
+This deck is a http://markdalgleish.com/projects/bespoke.js[Bespoke.js] presentation.
+To run it, first ensure you have the following installed:
+
+. http://nodejs.org[Node.js]
+. http://bower.io[Bower]:
+
+ $ npm install -g bower
+
+. http://gulpjs.com[Gulp]:
+
+ $ npm install -g gulp
+
+Then, install dependencies and run the preview server:
+
+```bash
+$ npm install && bower install
+$ gulp serve
+```
+
+Finally, visit \http://localhost:8080 in your browser.

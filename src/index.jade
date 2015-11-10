@@ -1,0 +1,54 @@
+-
+  var hacks = [
+    "Write in plain text",
+    "Answer a question",
+    "Sentence-per-line",
+    "Sketch in comments",
+    "Power thesaurus",
+    "Visualize progress",
+    "Couch read"
+  ];
+  var bg_colors = [
+    "#F8B200",
+    "#A0CBBF",
+    "#E14304",
+    "#F8B200",
+    "#A0CBBF",
+    "#E14304",
+    "#F8B200"
+  ];
+  var text_colors = [
+    "#000",
+    "#27221e",
+    "#fff",
+    "#000",
+    "#27221e",
+    "#fff",
+    "#000"
+  ];
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title 7 Ways to Hack Your Brain to Write Fluently
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+  body
+    article.deck
+      section.title
+        h1
+          span.secondary.line-1 7 Ways to
+          span.primary.line-2 Hack Your Brain
+          span.secondary.line-3 to
+          span.primary.line-4 Write Fluently
+        p.author Dan Allen &middot; opendevise.io &middot; @mojavelinux
+      - for (var i = 1; i <= hacks.length; i++)
+        section(style="color: #{text_colors[i - 1]}; background-color: #{bg_colors[i - 1]}")
+          h2(data-index=i)=hacks[i - 1]
+      section.review
+        ul
+          - for (var i = 1; i <= hacks.length; i++)
+            li(data-index=i)=hacks[i - 1]
+      section.fin
+        h2 Write with pleasure!
+    script(src='build/build.js')

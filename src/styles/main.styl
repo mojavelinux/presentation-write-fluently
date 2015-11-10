@@ -1,0 +1,61 @@
+@import './fonts.css'
+@import 'normalizecss/normalize.css'
+@import './bespoke-base'
+
+body
+  font-size: 16px
+
+article.deck
+  font-family: Overlock
+  color: rgba(0, 0, 0, 0.8)
+  background-color: #000
+
+section
+  background-color: #fff
+
+h1, h2
+  font-size: 4em
+  text-align: center
+
+section.title, section.fin
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.5) 100%), url(../images/setting.jpg)
+  background-size: cover
+  color: #ffff
+
+section.title h1
+  line-height: 1.2
+  margin: 0
+  span
+    display: block
+    &.secondary
+      font-weight: 400
+      font-size: 0.5em
+
+p.author
+  font-family: "Work Sans";
+  font-weight: 300;
+  margin: 0
+  position: relative
+  top: 1em
+
+section h2[data-index]::before
+  content: "#" attr(data-index)
+  color: rgba(0, 0, 0, 0.5)
+  position: absolute
+  right: 10%
+  bottom: 10%
+  font-size: 3rem
+  line-height: 1
+
+section.review
+  background-color: #315b65
+  background-color: #375a78
+  background-color: #27221e
+  color: #fff
+  ul
+    list-style: none
+    padding: 0
+    width: 75%
+    text-align: right
+    line-height: 1.6
+    font-size: 1.5em

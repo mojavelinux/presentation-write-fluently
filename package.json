@@ -1,0 +1,35 @@
+{
+  "name": "presentation-write-fluently",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "bespoke": "^1.1.0",
+    "bespoke-classes": "^1.0.0",
+    "bespoke-hash": "^1.0.2",
+    "bespoke-nav": "^1.0.1",
+    "bespoke-scale": "^1.0.1",
+    "bespoke-forms": "^1.0.0",
+    "bespoke-fullscreen": "^1.0.0",
+    "bespoke-overview": "^1.0.4",
+    "bespoke-cursor": "^1.0.0",
+    "debowerify": "^0.7.1",
+    "del": "^1.1.1",
+    "gh-pages": "^0.2.0",
+    "gulp": "^3.8.1",
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-browserify": "^0.5.1",
+    "gulp-connect": "^2.0.5",
+    "gulp-csso": "^0.2.9",
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^0.6.3",
+    "gulp-rename": "^1.2.0",
+    "gulp-stylus": "^1.0.2",
+    "gulp-uglify": "^0.3.1",
+    "gulp-util": "^2.2.17",
+    "normalizecss": "^3.0.0",
+    "through": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

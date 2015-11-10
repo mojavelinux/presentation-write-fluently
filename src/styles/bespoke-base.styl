@@ -1,0 +1,59 @@
+*, ::before, ::after
+  box-sizing: inherit
+
+html
+  box-sizing: border-box
+
+.deck
+  color: #303030
+  text-rendering: optimizeLegibility
+  font-feature-settings: "kern" 1
+  font-kerning: normal
+
+  // Hide deck and slide content until bespoke.js has added classes
+  &:not(.bespoke-parent), section:not(.bespoke-slide)
+    display: none
+
+.bespoke-parent, .bespoke-scale-parent
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+
+.bespoke-parent
+  overflow: hidden
+
+.bespoke-scale-parent, .bespoke-slide
+  pointer-events: none
+
+.bespoke-slide
+  // force opacity to start at 0 to avoid transition on load when using bespoke-scale
+  opacity: 0
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 640px
+  margin-left: -(@width / 2)
+  height: 360px
+  margin-top: -(@height / 2)
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+.bespoke-active
+  pointer-events: auto
+  opacity: 1
+  z-index: 1
+
+.bespoke-bullet
+  transition: opacity 0.2s ease
+  opacity: 1
+  // NOTE workaround bug in Chrome resulting in a visual shift
+  //will-change: opacity
+  -webkit-transform: rotate(0)
+
+.bespoke-bullet-inactive
+  opacity: 0
+  pointer-events: none

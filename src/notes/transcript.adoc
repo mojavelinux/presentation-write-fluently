@@ -1,0 +1,265 @@
+////
+TODO
+- vim-like moving around with keys (perhaps in sentence-per-line section?)
+////
+= 7 Ways to Hack Your Brain to Write Fluently: Transcript
+:sectnums:
+ifdef::env-browser[:toc: macro]
+
+toc::[]
+
+Think about how much you've communicated with each other this week.
+You walk up to someone and you just know what to say.
+Humans are born communicators.
+So why do we have difficulty writing?
+And what can we do about it?
+
+My theory is that the challenge we have with technical writing is not with communication itself, but rather with the constraints we are imposing on ourselves.
+We are sufficiating the writer in us, and as a result, the writing.
+Like programmers, let's hack or way out of this mess with a few tricks to get our fingers and brain to work together to write fluently.
+
+== Write in plain text
+
+If you're writing in AsciiDoc, you're already using one of the best brain hacks I know to write fluently.
+Way to go!
+If not, your journey with AsciiDoc starts today.
+
+Free your mind by writing in the closest format to thought, plain text.
+Using a plain text format, you efficiently encode the information, meaning transcribing content into its purest form.
+It's similar to writing on paper.
+You plow away the distractions.
+Above all, you're writing!
+
+There's little to no ceremony to get going.
+
+// Approachable
+
+Plain text is easy to pass around and share.
+It works just like other source code, so you can use the same tools and workflows.
+No formal publishing workflow is needed (or you already have one with git).
+
+It offers a clean separation of content and presentation.
+You can focus on content and get a beautiful result.
+We like to say that with AsciiDoc, you write once and you can publish everywhere.
+
+When we moved from paper and pencil to the computer to write, we gained a lot of things, but we also lost some.
+One of the things we lost was the ability to whip out a sheet of paper and just start scribbling on it.
+Or at least, this capability was lost for a few decades.
+All of a sudden you needed to think about a file name and where that file lived on the system.
+You needed to worry about losing your work because you didn't save (and saving forced you to deal with the file name and location issue).
+You had an interface forced you to think about structure and formatting of your document, and features like auto-correct to prod you to fix irrelevant issues.
+In effect, you had to make it happy in order to write comfortably.
+
+Writing fluently is channeling your thoughts through your fingers and onto the screen.
+You want to have as little distraction, as little friction, in that channel as possible.
+That's why I love plain text.
+It gets me back to writing on paper, but with the benefit of being able to revise without having to rewrite.
+
+== Answer a question
+
+Most people are OK with writing e-mails.
+They don't consider this writing.
+Someone asks you a question, you press reply and type away.
+
+The same thing is true for Twitter (and other social networks).
+Think about how easy it is to tweet.
+The Twitter bird asks “What's happening?”, you just fill in the blank.
+You're a communication machine!
+
+Notice that these forms of communication are _responses to questions_.
+
+When it comes to documentation and other long-form writing, such as writing a README or tutorial, we clam up.
+All of a sudden we have to think about structure.
+What's the beginning, middle and end?
+The prerequisites?
+The audience?
+It's no longer just question and response.
+So why not make it that way?
+
+My primary brain hack is to write like you are answering a question.
+Start with an outline of questions, answer those questions, then go back and change those questions to statements in the final version.
+Make it more like writing an e-mail response.
+
+In fact, start writing documentation directly in your e-mail.
+If you have to, e-mail yourself to get started writing, or use the mailinglist as an opportunity.
+With a question just sitting out there, you'll be compelled to want to answer it.
+Gradually shape that content into a README, tutorial or some other form of documentation.
+
+The key is to get the information out of your head and onto the page.
+In doing so, you've unloaded all that information from your brain and now it has free cycles to organize, shape and rewrite it.
+
+== Sentence-per-line
+
+Think about how you write code.
+You tend to put each statement on its own line.
+Anders Nawroth of Neo4j introduced me to the power of writing using the sentence-per-line technique which follows the same style.
+This technique has single-handly transformed my writing process, and I'm eternally grateful to him.
+
+In sentence per line, you write a paragraph like you would a bulleted list, except you waive the bullets.
+Like HTML, endlines in paragraph content are insignficant in AsciiDoc, so this mode of writing is supported by default.
+
+.Benefits:
+- feels natural (matches how we write code)
+- keeps changes localized (because it does not cause reflow)
+- easier to diff
+- can easily rearrange sentences or disable sentences
+- can add commentary at the sentence level (more on this in a minute)
+- encourages shorter sentences; Edit with a knife!
+- warms you up to writing
+- helps you think about what you're writing
+
+Highly recommended.
+
+== Write in comments
+
+Just like code, AsciiDoc supports line and block-level comments.
+This allows you to take content out of the flow either temporarily or permanently.
+
+There's no way I can write anymore without comments.
+My document has as many comments as it has (visible) content.
+
+Gives you some place to put ideas, notes, reminders and drafts; directly adjacent to the source.
+Works really well when combined with sentence-per-line.
+Once you write using sentence per line, you can use line or block comments quite effectively to try out content, swapping it in and out of place.
+This let's you soft delete content, making revision less scary.
+
+Michael Hunger of Neo4j refers to this as comment-driven writing.
+
+Comments also let you talk back and forth to each other in a document.
+It's a lightweight revision mechanism and notation system.
+Use +//INITIALS+ to leave a comment.
+Use +//!+ to indicate you are rewriting a line.
+
+== Power thesaurus
+
+Ever since grade school, I've sat with a thesaurus at my side when writing.
+Nowadays, I use an online tool, specifically powerthesaurus.org.
+This is the biggest secret to what makes my writing intriguing.
+
+I want to start by defending the thesaurus.
+When I first starting using it, people would tell me, "using a thesaurus will cause you to use big words you don't know and what you write will sound unnatural and lack your own voice"
+First of all, this is bullshit.
+Don't listen to these people.
+I didn't, and it paid off for me.
+A thesaurus is not at all about trying to find big words that you don't know.
+Sure, you are going to learn words as a side-effect of them being in proximety to the words you are looking for.
+This is a good thing.
+But that doesn't mean you'll pick them, at least not until you become comfortable with them.
+
+A thesaurus is like a treasure map for the words in your mind.
+When you write, you are transcribing your thoughts into the written word.
+In other words, you are listening to yourself think and writing down what you hear.
+Sometimes, you hear the words clearly.
+Sometimes, you don't.
+You might get the sense of the meaning you want, but your brain isn't matching that meaning to the word.
+What's important, though, is that you'd know the word if you saw it.
+Enter the thesaurus.
+
+When this happens, just type `%%%%` in your document and finish the sentence or thought.
+Then, open up powerthesaurus.org and search for the closest word you can think of that has that meaning.
+Now, start browsing.
+What you are doing is trying to get your brain to recognize the word it wants.
+This is partly concious and partly unconcious.
+Keep saying the sentence in your head and see if the next word in the thesaurus feels right.
+Is it something you might say?
+Make sure you hear it in your own voice.
+
+If your brain still isn't making the connection with the help of the thesaurus, get up and take a walk, a shower or just doing something else for a few minutes.
+While away from the screen and the expectant pose of writing, your brain will start working on the idea in a background thread.
+This usually helps unlock the thought or memory you need to continue writing.
+Perhaps it's your brains way of rewarding you for the break :)
+
+Sometimes, the thesaurus helps unjar your memory and you find the word your brain wanted all along.
+Other times, this process actually helps expand your thinking about what you are saying and a word comes along that gives you a better way to say what you are trying to convey.
+I even browse the thesaurus to get ideas about what to write, to provide a spark to get started.
+What's important is a very broad thesaurus that provides a wide net of ideas.
+
+The thesarus is a mediator between your unconcious and concious.
+Your unconcious knows what it wants, but your concious isn't getting this information.
+The thesaurus is the secret to getting that information across the divide and onto the page.
+You aren't going to select words that aren't your own, but you will select better words that you would have without it.
+I use it *all the time.*
+
+////
+== Don't repeat yourself
+////
+
+== Preview and code review
+// need a better title here; Reader's shoes?
+// - use a ”fork and fix” workflow to collaboratively edit the document.
+
+The hardest part about writing is getting started.
+The preview can be very motivating tool to help you get your feet wet, as well as help you keep the big picture throughout the writing process.
+I constantly keep the preview open and toggle from my editor to the preview as I write.
+
+There are lots of ways to get a preview.
+My personal favorite are the browser extensions, in particular the Chrome extension.
+I can visit any local or remote AsciiDoc document and view the rendered HTML instead of the source.
+It even updates automatically (aka Live Reload) when the underlying source document changes.
+A truly amazing tool.
+
+And all along the way, I see the document in a semi-published state, so it motivates me to keep going.
+
+// FIXME transition needed
+
+You don't know how valuable it is to see what changed until you have it, then take it away.
+Imagine for a second that you are working on a development team and someone changes a bunch of code, the code isn't in source control and there's no other copy.
+I'm sure you're feeling a little bit of panic right now.
+That's how we often write, only worse because we have multiple copies of the same document in binary format that we can't diff.
+
+Source control and diffs are just as important for writing as for code.
+In fact, in a lot of ways, writing is coding, except the language is a human language instead of a computer language.
+Source control and diffs give you all the same confidence for writing as it does for code.
+You commit the first version, then you can change the content to your heart's content and know that you can always go back to the first version.
+Commit to make a new checkpoint and continue.
+It lets you edit with confidence and without fear.
+You can venture further away from the wall and try stuff because you can always revert back or compare it to where you started.
+
+While revision control is usefully locally, it's even more powerful for teams.
+You'll find yourself reviewing docs changes just like you do code changes.
+And it's absolutely essential for writing where there are little to no guards against an incorrect change (with code, we at least have tests to validate the change).
+
+GitHub, in particular, makes "code review" for docs very effective.
+Package up your change as a pull request.
+From there, it offers the typical source diff.
+This allows you to see the lines, and the characters within those lines, that changed.
+If you use sentence-per-line, this drastically improves the effectiveness of this view because you don't get noise caused by reflows.
+// NOTE show sample
+But the truly powerful feature is the rich diff.
+In this view, you see the differences in the rendered out.
+Both the old and new version are rendered and you get a diff of the rendered output.
+It also folds parts of the document that haven't changed so you can really focus from the reader's perspective on the change that was made.
+
+With these two views, you will never again experience that panic when different people start editing a document (or at least a lot less and you'll have a way to manage or revert the changes).
+
+== Couch read
+
+The best way I've found to get a big picture view and also catch all the little errors while editing is to do what I call a couch read.
+
+When you do a couch read, find a comfortable couch to stretch out on, bring up the document on your phone or other portable device and start reading through it from the top.
+No typo is too small to escape a couch read.
+This works because it shifts your locus of attention to reading (and only reading).
+// Use Hubert's trick with typo?
+Humans only have one locus of attention.
+Every desktop application and web page wants this locus of attention.
+When you are at your desktop, you attention is constantly being tugged on.
+Even when you are looking directly at the document, there's still a very good chance something will pop up to distract you.
+And your brain knows this.
+So it sucks at focusing on the details in the document.
+On top of all that, the font is too small (the font is always too small).
+When you're horizontal on the couch, you are relaxed and you are hyper focused (at least, that's my experience).
+Now I can really dig into the text and thinking about what is being said.
+I'm also focusing on one paragraph at a time.
+This gets me totally in the moment, in the words.
+
+You've also hacked your brain to be in the readers shoes, making a clear switch from producing to consuming.
+Because you are far away from the keyboard and the temptation to switch over to your editor and wordsmith, you are forced to read the words that are there.
+This makes you painfully aware of what you wrote and whether it flows.
+
+I strongly encourage you to couch read all your documents.
+
+:sectnums!:
+
+== Wrap-up
+
+(...)
