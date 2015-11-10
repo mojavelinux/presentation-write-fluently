@@ -28,6 +28,12 @@ gulp.task('js', ['clean:js'], function() {
     .pipe(connect.reload());
 });
 
+gulp.task('transcript', ['clean:transcript'], function() {
+  return gulp.src('src/notes/transcript.html')
+    .pipe(gulp.dest('dist'))
+    .pipe(connect.reload());
+});
+
 gulp.task('html', ['clean:html'], function() {
   return gulp.src('src/index.jade')
     .pipe(isDist ? through() : plumber())
@@ -54,7 +60,7 @@ gulp.task('css', ['clean:css'], function() {
 });
 
 gulp.task('images', ['clean:images'], function() {
-  return gulp.src('src/images/**/*')
+  return gulp.src(['src/images/**/*', '!src/images/originals/**', '!src/images/originals'])
     .pipe(gulp.dest('dist/images'))
     .pipe(connect.reload());
 });
@@ -65,6 +71,10 @@ gulp.task('clean', function(done) {
 
 gulp.task('clean:html', function(done) {
   del('dist/index.html', done);
+});
+
+gulp.task('clean:transcript', function(done) {
+  del('dist/transcript.html', done);
 });
 
 gulp.task('clean:js', function(done) {
@@ -103,7 +113,7 @@ gulp.task('deploy', ['build'], function(done) {
   ghpages.publish(path.join(__dirname, 'dist'), { logger: gutil.log }, done);
 });
 
-gulp.task('build', ['js', 'html', 'css', 'images']);
+gulp.task('build', ['js', 'html', 'css', 'images', 'transcript']);
 
 gulp.task('serve', ['connect', 'watch']);
 
