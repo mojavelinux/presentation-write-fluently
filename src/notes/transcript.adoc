@@ -1,7 +1,3 @@
-////
-TODO
-- vim-like moving around with keys (perhaps in sentence-per-line section?)
-////
 = 7 Ways to Hack Your Brain to Write Fluently: Transcript
 :docinfo: private-head
 :nofooter:
@@ -49,7 +45,7 @@ We put so much damn clutter between you and your content that your words get los
 
 AsciiDoc, on the other hand, is very approachable.
 It just makes sense to writers and for writers.
-And plain text is easy to pass around and share.
+Plain text is easy to pass around and share.
 Since it works just like other source code, you can use the same tools and workflows.
 No formal publishing workflow is needed (or you already have one with git).
 
@@ -60,7 +56,7 @@ It gets me back to _feeling_ like I'm writing on paper, but with all the benefit
 I can just plow away the distractions.
 I can revise.
 I can automate.
-But above all, I'm writing!
+Above all, I'm writing!
 
 == Answer a question
 
@@ -112,10 +108,12 @@ Like HTML, endlines in paragraph content are insignificant in AsciiDoc, so this 
 - keeps changes localized (because it does not cause reflow)
 - easier to diff
 - can easily rearrange sentences or disable sentences
+//vim-like moving around with keys
 - can add commentary at the sentence level (more on this in a minute)
 - encourages shorter sentences; edit with a knife!
 - warms up your writing
 - helps you think about what you're writing
+
 
 Highly recommended.
 It also makes comments more effective.
@@ -156,14 +154,14 @@ A thesaurus is not at all about trying to find big words that you don't know.
 Sure, you are going to learn words as a side-effect of them being in proximity to the words you are looking for.
 This is a good thing.
 But that doesn't mean you'll pick them, at least not until you become comfortable with them.
-
 A thesaurus is like a treasure map for the words in your mind.
+
 When you write, you are transcribing your thoughts into the written word.
 In other words, you are listening to yourself think and writing down what you hear.
 Sometimes, you hear the words clearly.
 Sometimes, you don't.
 You might get the sense of the meaning you want, but your brain isn't matching that meaning to the word.
-What's important, though, is that you'd know the word if you saw it.
+But you'd know the word if you saw it.
 Enter the thesaurus.
 
 When this happens, just type `%%%%` in your document and finish the sentence or thought.
@@ -175,21 +173,23 @@ Keep saying the sentence in your head and see if the next word in the thesaurus 
 Is it something you might say?
 Make sure you hear it in your own voice.
 
-If your brain still isn't making the connection with the help of the thesaurus, get up and take a walk, a shower or just doing something else for a few minutes.
-While away from the screen and the expectant pose of writing, your brain will start working on the idea in a background thread.
-This usually helps unlock the thought or memory you need to continue writing.
-Perhaps it's your brains way of rewarding you for the break :)
-
+////
 Sometimes, the thesaurus helps unjar your memory and you find the word your brain wanted all along.
 Other times, this process actually helps expand your thinking about what you are saying and a word comes along that gives you a better way to say what you are trying to convey.
+////
 I even browse the thesaurus to get ideas about what to write, to provide a spark to get started.
-What's important is a very broad thesaurus that provides a wide net of ideas.
+What's best is a very broad thesaurus that provides a wide net of ideas.
 
 The thesaurus is a mediator between your unconscious and conscious.
 Your unconscious knows what it wants, but your conscious isn't getting this information.
 The thesaurus is the secret to getting that information across the divide and onto the page.
 You aren't going to select words that aren't your own, but you will select better words that you would have without it.
 I use it *all the time.*
+
+If your brain still isn't making the connection with the help of the thesaurus, get up and take a walk, a shower or just doing something else for a few minutes.
+While away from the screen and the pose of writing, your brain will start working on the idea in a background thread.
+This usually helps unlock the thought or memory you need to continue writing.
+Perhaps it's your brains way of rewarding you for the break :)
 
 ////
 == Don't repeat yourself
