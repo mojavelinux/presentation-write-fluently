@@ -1,3 +1,8 @@
+////
+.TODO
+* without sentence per line, you have to scissor sentences
+* slide to change question "How do I install your app?" to statement / heading
+////
 = 7 Ways to Hack Your Brain to Write Fluently: Transcript
 :docinfo: private-head
 :nofooter:
