@@ -631,9 +631,18 @@ section.minion {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+  display: block;
 }
 section.minion img {
   max-height: 25%;
+}
+section.minion img {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 section.minion.bespoke-active img {
   max-height: 75%;
