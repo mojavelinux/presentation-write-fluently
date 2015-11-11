@@ -45,9 +45,9 @@ Code is a first-class citizen!
 System.out.println("AsciiDoc loves code!");
 ----
 
-<strong>TIP:</strong> Use the include directive to insert tested code.
-</code></pre>
+<strong>TIP:</strong> Use the include directive to insert tested code.</code></pre>
       </section>
+      <section class="poster"><img src="images/hand-writing.jpg"></section>
       <section style="color: #27221e; background-color: #A0CBBF">
         <h2 data-index='2'>Answer a question</h2>
       </section>
@@ -56,16 +56,16 @@ System.out.println("AsciiDoc loves code!");
         <p>How do I install your project?</p>
         <textarea style="width: 12em; height: 4em; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: &quot;Work Sans&quot;, sans-serif"></textarea>
       </section>
-      <section class="listing">
-        <pre><code><strong>== Scenarios</strong>
-
-.Invoke Gradle from a terminal
-Given I am a developer
-And I want to know how to invoke Gradle
-When I navigate to the get started tutorial page
-Then I should understand Gradle has a command-line interface
-And I can invoke Gradle from a terminal by typing `gradle`</code></pre>
-      </section>
+      <!--section.listing-->
+      <!--  pre: code.-->
+      <!--    <strong>== Scenarios</strong>-->
+      <!--    -->
+      <!--    .Invoke Gradle from a terminal-->
+      <!--    Given I am a developer-->
+      <!--    And I want to know how to invoke Gradle-->
+      <!--    When I navigate to the get started tutorial page-->
+      <!--    Then I should understand Gradle has a command-line interface-->
+      <!--    And I can invoke Gradle from a terminal by typing `gradle`-->
       <section style="background-color: #27221e; color: #fff; font-size: 25vh"><i class="fa fa-envelope-o"></i></section>
       <section style="color: #fff; background-color: #E14304">
         <h2 data-index='3'>Sentence-per-line</h2>
@@ -92,36 +92,33 @@ This technique transformed my writing process.
         <h2 data-index='4'>Draft in comments</h2>
       </section>
       <section class="listing">
-        <pre><code>Words have *impact*.
-What impact do your words have?
-Is it the right impact?
-<span class="comment">//! Are your words reaching the right people?</span>
-<span class="comment">//! Do the words reach the right people?</span>
-Do your words reach the right people?
-</code></pre>
-      </section>
-      <section class="listing">
-        <pre><code>Words are powerful tools in your quest to connect with users.
-<span class="comment">//SW: The next point should be moved to Strategy</span>
-You need to choose words wisely and with intent.
-That intent comes from research.
-</code></pre>
+        <pre><code><span class="comment">////
+.TODO
+* consolidate ending
+* make revisions to story
+* add point about resilience
+////</span></code></pre>
       </section>
       <section class="listing">
         <pre><code><span class="comment">////
 Don't bore the community with discussion of your product.
 It creates us vs them scenario, makes them outsiders.
 And never treat community as just a marketing channel.
-////</span>
-</code></pre>
+////</span></code></pre>
       </section>
       <section class="listing">
-        <pre><code><span class="comment">////
-.TODO
-* consolidate ending
-* make revisions to story
-* add point about resilience
-////</span>
+        <pre><code>Words are powerful tools in your quest to connect with users.
+<span class="comment">//SW: The next point should be moved to Strategy</span>
+You need to choose words wisely and with intent.
+That intent comes from research.</code></pre>
+      </section>
+      <section class="listing">
+        <pre><code>Words have *impact*.
+What impact do your words have?
+Is it the right impact?
+<span class="comment">//! Are your words reaching the right people?</span>
+<span class="comment">//! Do the words reach the right people?</span>
+Do your words reach the right people?
 </code></pre>
       </section>
       <section style="color: #27221e; background-color: #A0CBBF">
@@ -133,8 +130,16 @@ And never treat community as just a marketing channel.
           <figcaption>http://powerthesaurus.org</figcaption>
         </figure>
       </section>
-      <section class="poster"><img src="images/power-thesaurus-autocomplete.jpg"></section>
+      <!--section.poster-->
+      <!--  img(src='images/power-thesaurus-autocomplete.jpg')-->
+      <section class="listing">
+        <pre><code>Words %%%% people.</code></pre>
+      </section>
       <section class="poster"><img src="images/power-thesaurus-autocomplete-2.jpg"></section>
+      <section class="listing">
+        <pre><code>Words <strong>move</strong> people.
+</code></pre>
+      </section>
       <section style="color: #fff; background-color: #E14304">
         <h2 data-index='6'>Visualize progress</h2>
       </section>
@@ -159,6 +164,7 @@ And never treat community as just a marketing channel.
       <section style="background-color: #27221e; color: #fff; text-align: center; font-size: 2em">
         <p>You can st<span class="error">e</span>y more focused</p>
       </section>
+      <section class="poster"><img src="images/couch-read.jpg"></section>
       <section class="review">
         <ul>
           <li data-index='1'>Write in plain text</li>
