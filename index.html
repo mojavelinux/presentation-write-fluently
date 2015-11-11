@@ -18,21 +18,21 @@
       <section class="poster"><img src="images/hand-writing.jpg"></section>
       <section class="minion"><img src="images/evil-minion.png"></section>
       <section class="listing">
-        <pre><code>= Writing Without Pain
-Author Name <author@example.org>
+        <pre><code><strong>= Writing Without Pain</strong>
+Author Name &lt;author@example.org&gt;
 
 A paragraph is just a paragraph.
 No pain involved.
 
-== Belgium in a nutshell
+<strong>== Belgium in a nutshell</strong>
 
-* Beer
-* Chocolate
-* http://devoxx.be[Devoxx]</code></pre>
+<strong>*</strong> Beer
+<strong>*</strong> Chocolate
+<strong>*</strong> http://devoxx.be[Devoxx]</code></pre>
       </section>
       <section class="listing">
-        <pre><code>= Document Code Without Pain
-Author Name <author@example.org>
+        <pre><code><strong>= Document Code Without Pain</strong>
+Author Name &lt;author@example.org&gt;
 
 Code is a first-class citizen!
 
@@ -41,7 +41,7 @@ Code is a first-class citizen!
 System.out.println("AsciiDoc loves code!");
 ----
 
-TIP: Use the include directive to insert tested code.
+<strong>TIP:</strong> Use the include directive to insert tested code.
 </code></pre>
       </section>
       <section style="color: #27221e; background-color: #A0CBBF">
@@ -53,7 +53,7 @@ TIP: Use the include directive to insert tested code.
         <textarea style="width: 12em; height: 4em; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: &quot;Work Sans&quot;, sans-serif"></textarea>
       </section>
       <section class="listing">
-        <pre><code>== Scenarios
+        <pre><code><strong>== Scenarios</strong>
 
 .Invoke Gradle from a terminal
 Given I am a developer
@@ -70,14 +70,14 @@ And I can invoke Gradle from a terminal by typing `gradle`
         <pre><code>When you write code, you put each statement on its own line. Sentence-per-line assumes the style of code. This technique single-handly transformed my writing process.</code></pre>
       </section>
       <section class="listing">
-        <pre><code>== Sentence-per-line
+        <pre><code><strong>== Sentence-per-line</strong>
 
 When you write code, you put each statement on its own line.
 Sentence-per-line assumes the style of code.
 This technique single-handly transformed my writing process.</code></pre>
       </section>
       <section class="listing">
-        <pre><code>== Sentence-per-line
+        <pre><code><strong>== Sentence-per-line</strong>
 
 Sentence-per-line assumes the style of code.
 When you write code, you put each statement on its own line.
@@ -91,33 +91,33 @@ This technique single-handly transformed my writing process.
         <pre><code>Words have *impact*.
 What impact do your words have?
 Is it the right impact?
-//! Are your words reaching the right people?
-//! Do the words reach the right people?
+<span class="comment">//! Are your words reaching the right people?</span>
+<span class="comment">//! Do the words reach the right people?</span>
 Do your words reach the right people?
 </code></pre>
       </section>
       <section class="listing">
         <pre><code>Words are powerful tools in your quest to connect with users.
-//SW: The next point should be moved to Strategy
+<span class="comment">//SW: The next point should be moved to Strategy</span>
 You need to choose words wisely and with intent.
 That intent comes from research.
 </code></pre>
       </section>
       <section class="listing">
-        <pre><code>////
+        <pre><code><span class="comment">////
 Don't bore the community with discussion of your product.
 It creates us vs them scenario, makes them outsiders.
 And never treat community as just a marketing channel.
-////
+////</span>
 </code></pre>
       </section>
       <section class="listing">
-        <pre><code>////
+        <pre><code><span class="comment">////
 .TODO
 * consolidate ending
 * make revisions to story
 * add point about resilience
-////
+////</span>
 </code></pre>
       </section>
       <section style="color: #27221e; background-color: #A0CBBF">
@@ -144,7 +144,16 @@ And never treat community as just a marketing channel.
       </section>
       <section class="poster"><img src="images/couch-read.jpg"></section>
       <section style="background-color: #27221e; color: #fff; text-align: center; font-size: 2em">
-        <p>You can stay fokused on the text</p>
+        <p>You can stay more fokused</p>
+      </section>
+      <section style="background-color: #27221e; color: #fff; text-align: center; font-size: 2em">
+        <h2><span class="error">C</span></h2>
+      </section>
+      <section style="background-color: #27221e; color: #fff; text-align: center; font-size: 2em">
+        <p>You can stey more focused</p>
+      </section>
+      <section style="background-color: #27221e; color: #fff; text-align: center; font-size: 2em">
+        <p>You can st<span class="error">e</span>y more focused</p>
       </section>
       <section class="review">
         <ul>

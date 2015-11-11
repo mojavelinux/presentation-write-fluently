@@ -620,6 +620,12 @@ section.review ul {
   font-weight: 300;
   line-height: 1.65;
 }
+pre code strong {
+  font-weight: 400;
+}
+pre code .comment {
+  opacity: 0.75;
+}
 section.minion {
   background-color: #0f0d0c;
   -webkit-align-items: flex-end;
@@ -633,4 +639,12 @@ section.minion.bespoke-active img {
   max-height: 75%;
   -webkit-transition: max-height ease-in-out 0.25s 0.25s;
   transition: max-height ease-in-out 0.25s 0.25s;
+}
+h2 span.error {
+  color: #f8b200;
+}
+p span.error {
+  background-color: #f8b200;
+  color: #27221e;
+  border-radius: 5px;
 }
