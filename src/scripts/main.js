@@ -18,7 +18,7 @@ var deck = bespoke.from('.deck', [
   overview(),
   //bullets('li, .bullet'),
   hash(),
-  //cursor(),
+  cursor(),
   forms()
 ]);
 
