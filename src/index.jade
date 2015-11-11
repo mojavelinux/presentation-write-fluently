@@ -81,6 +81,8 @@ html(lang='en')
                   ----
 
                   <strong>TIP:</strong> Use the include directive to insert tested code.
+              section.poster
+                img(src='images/hand-writing.jpg')
 
             when "answer_question"
               section
@@ -88,16 +90,16 @@ html(lang='en')
               section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em; white-space: nowrap')
                 p How do I install your project?
                 textarea(style='width: 12em; height: 4em; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: "Work Sans", sans-serif')
-              section.listing
-                pre: code.
-                  <strong>== Scenarios</strong>
-                  
-                  .Invoke Gradle from a terminal
-                  Given I am a developer
-                  And I want to know how to invoke Gradle
-                  When I navigate to the get started tutorial page
-                  Then I should understand Gradle has a command-line interface
-                  And I can invoke Gradle from a terminal by typing `gradle`
+              //section.listing
+              //  pre: code.
+              //    <strong>== Scenarios</strong>
+              //    
+              //    .Invoke Gradle from a terminal
+              //    Given I am a developer
+              //    And I want to know how to invoke Gradle
+              //    When I navigate to the get started tutorial page
+              //    Then I should understand Gradle has a command-line interface
+              //    And I can invoke Gradle from a terminal by typing `gradle`
               section(style='background-color: #27221e; color: #fff; font-size: 25vh')
                 i.fa.fa-envelope-o
 
@@ -123,20 +125,12 @@ html(lang='en')
             when "comments"
               section.listing
                 pre: code.
-                  Words have *impact*.
-                  What impact do your words have?
-                  Is it the right impact?
-                  <span class="comment">//! Are your words reaching the right people?</span>
-                  <span class="comment">//! Do the words reach the right people?</span>
-                  Do your words reach the right people?
-
-              section.listing
-                pre: code.
-                  Words are powerful tools in your quest to connect with users.
-                  <span class="comment">//SW: The next point should be moved to Strategy</span>
-                  You need to choose words wisely and with intent.
-                  That intent comes from research.
-
+                  <span class="comment">////
+                  .TODO
+                  * consolidate ending
+                  * make revisions to story
+                  * add point about resilience
+                  ////</span>
               section.listing
                 pre: code.
                   <span class="comment">////
@@ -144,15 +138,20 @@ html(lang='en')
                   It creates us vs them scenario, makes them outsiders.
                   And never treat community as just a marketing channel.
                   ////</span>
-
               section.listing
                 pre: code.
-                  <span class="comment">////
-                  .TODO
-                  * consolidate ending
-                  * make revisions to story
-                  * add point about resilience
-                  ////</span>
+                  Words are powerful tools in your quest to connect with users.
+                  <span class="comment">//SW: The next point should be moved to Strategy</span>
+                  You need to choose words wisely and with intent.
+                  That intent comes from research.
+              section.listing
+                pre: code.
+                  Words have *impact*.
+                  What impact do your words have?
+                  Is it the right impact?
+                  <span class="comment">//! Are your words reaching the right people?</span>
+                  <span class="comment">//! Do the words reach the right people?</span>
+                  Do your words reach the right people?
 
             when "thesaurus"
               section.poster
@@ -161,10 +160,16 @@ html(lang='en')
                 figure
                   img(src='images/power-thesaurus.jpg')
                   figcaption http://powerthesaurus.org
-              section.poster
-                img(src='images/power-thesaurus-autocomplete.jpg')
+              //section.poster
+              //  img(src='images/power-thesaurus-autocomplete.jpg')
+              section.listing
+                pre: code.
+                  Words %%%% people.
               section.poster
                 img(src='images/power-thesaurus-autocomplete-2.jpg')
+              section.listing
+                pre: code.
+                  Words <strong>move</strong> people.
 
             when "visualize"
               section.poster
@@ -189,6 +194,8 @@ html(lang='en')
                 p You can stey more focused
               section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em')
                 p You can st<span class="error">e</span>y more focused
+              section.poster
+                img(src='images/couch-read.jpg')
 
       section.review
         ul

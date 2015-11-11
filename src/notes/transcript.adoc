@@ -24,7 +24,7 @@ Like programmers, let's hack our way out of this mess with a few tricks that get
 == Write in plain text
 
 Free your mind by writing in the closest format to thought, plain text.
-If you're writing in AsciiDoc, you're already using the primary brain hack I use to write fluently.
+If you're writing in AsciiDoc, you're already employing the primary brain hack I use to write fluently.
 Way to go!
 If not, your journey with AsciiDoc starts now.
 All the other hacks become possible once you start writing in AsciiDoc.
@@ -36,15 +36,15 @@ And there's little to no ceremony to get going.
 We like to say with AsciiDoc, you write once and you can publish everywhere.
 
 When we moved from paper and pencil to the computer to write, we gained a lot of things, but we also lost some.
-One of the things we lost was the ability to whip out a sheet of paper and just start scribbling on it.
+One of the things we lost was the ability to just whip out a sheet of paper and start scribbling on it.
 Or at least, this capability was lost for a few decades.
 All of a sudden you needed to think about a file name and where that file lived on the system.
 You needed to worry about losing your work because you didn't save (and saving forced you to deal with the file name and location issue).
-You had an interface forced you to think about structure and formatting of your document, and features like auto-correct to prod you to fix irrelevant issues.
-In effect, you had to make it happy in order to write comfortably.
+You had an interface that forced you to think about structure and formatting of your document, and features like auto-correct to prod you to fix irrelevant issues.
+In effect, you had to make the tool happy in order to write comfortably.
 
 AsciiDoc is very approachable.
-It just makes sense for writers.
+It just makes sense to writers and for writers.
 And plain text is easy to pass around and share.
 Since it works just like other source code, you can use the same tools and workflows.
 No formal publishing workflow is needed (or you already have one with git).
@@ -52,22 +52,23 @@ No formal publishing workflow is needed (or you already have one with git).
 Writing fluently is channeling your thoughts through your fingers and onto the screen.
 You want to have as little distraction--as little friction--in that channel as possible.
 That's why I love plain text.
-It gets me back to writing on paper, but with the benefit of being able to revise without having to rewrite.
+It gets me back to _feeling_ like I'm writing on paper, but with the benefit of being able to revise without having to rewrite.
 I can just plow away the distractions.
-Above all, I'm writing!
+And I can automate.
+But above all, I'm writing!
 
 == Answer a question
 
 Most of us are OK with writing e-mails.
 We don't consider this writing.
-Someone asks you a question, you press reply and type away.
+Someone asks you a question, you hit reply and type away.
 
 The same thing is true for Twitter (and other social networks).
 Think about how easy it is to tweet.
 The Twitter bird asks “What's happening?”, you just fill in the blank.
 You're a communication machine!
 
-Notice that these forms of communication are _responses to questions_.
+Notice these forms of communication are _responses to questions_.
 
 When it comes to documentation and other long-form writing, such as writing a README or tutorial, we clam up.
 All of a sudden we have to think about structure.
@@ -80,6 +81,7 @@ So why not make it that way?
 My primary brain hack is to write like you are answering a question.
 Start with an outline of questions, answer those questions, then go back and change those questions to statements in the final version.
 Make it more like writing an e-mail response.
+Fill in the answer.
 
 In fact, start writing documentation directly in your e-mail.
 If you have to, e-mail yourself to get started writing, or use the mailinglist as an opportunity.
@@ -111,6 +113,7 @@ Like HTML, endlines in paragraph content are insignificant in AsciiDoc, so this 
 - helps you think about what you're writing
 
 Highly recommended.
+It also makes comments more effective.
 
 == Write in comments
 
@@ -159,9 +162,9 @@ What's important, though, is that you'd know the word if you saw it.
 Enter the thesaurus.
 
 When this happens, just type `%%%%` in your document and finish the sentence or thought.
-Then, open up powerthesaurus.org and search for the closest word you can think of that has that meaning.
-Now, start browsing.
-What you are doing is trying to get your brain to recognize the word it wants.
+Then, open up powerthesaurus.org and start shopping.
+Dig through the closet of your mind to find the word that has that meaning.
+What you're doing is getting your brain to recognize the word it wants.
 This is partly conscious and partly unconscious.
 Keep saying the sentence in your head and see if the next word in the thesaurus feels right.
 Is it something you might say?
@@ -226,7 +229,7 @@ Package up your change as a pull request.
 From there, it offers the typical source diff.
 This allows you to see the lines, and the characters within those lines, that changed.
 If you use sentence-per-line, this drastically improves the effectiveness of this view because you don't get noise caused by reflows.
-// NOTE show sample
+
 But the truly powerful feature is the rich diff.
 In this view, you see the differences in the rendered out.
 Both the old and new version are rendered and you get a diff of the rendered output.
@@ -244,14 +247,14 @@ This works because it shifts your locus of attention to reading (and only readin
 
 Humans only have one locus of attention.
 Every desktop application and web page wants this locus of attention.
-When you are at your desktop, you attention is constantly being tugged on.
+When you are at your desktop, your attention is constantly being tugged on.
 Even when you are looking directly at the document, there's still a very good chance something will pop up to distract you.
 And your brain knows this.
 So it sucks at focusing on the details in the document.
 On top of all that, the font is too small (the font is always too small).
 
 When you're horizontal on the couch, you are relaxed and you are hyper focused (at least, that's my experience).
-Now I can really dig into the text and thinking about what is being said.
+Now I can really dig into the text and think about what is being said.
 I'm also focusing on one paragraph at a time.
 This gets me totally in the moment, in the words.
 
