@@ -17,7 +17,13 @@ You'll never look at a blank page the same way again, and it won't be for long.
 //end::abstract[]
 --
 
-== View slides locally
+== View online
+
+http://mojavelinux.github.io/presentation-write-fluently/index.html[Slides]
+&middot;
+http://mojavelinux.github.io/presentation-write-fluently/transcript.html[Transcript]
+
+== View locally
 
 This deck is a http://markdalgleish.com/projects/bespoke.js[Bespoke.js] presentation.
 To run it, first ensure you have the following installed:
