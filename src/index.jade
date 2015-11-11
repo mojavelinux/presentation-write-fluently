@@ -32,7 +32,8 @@ html(lang='en')
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title 7 Ways to Hack Your Brain to Write Fluently
-    link(rel='stylesheet', type='text/css', href='build/build.css')
+    link(rel='stylesheet', href='build/build.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css')
   body
     article.deck
       section.title
@@ -50,10 +51,10 @@ html(lang='en')
             when "plain_text"
               section(style='background-color: #0f0d0c; color: #f8b200')
                 h2 Publish everywhere
-              section.poster
-                img(src='images/hand-writing.jpg')
               section.minion
                 img(src='images/evil-minion.png')
+              section.poster
+                img(src='images/hand-writing.jpg')
               section.listing
                 pre: code.
                   <strong>= Writing Without Pain</strong>
@@ -97,25 +98,27 @@ html(lang='en')
                   When I navigate to the get started tutorial page
                   Then I should understand Gradle has a command-line interface
                   And I can invoke Gradle from a terminal by typing `gradle`
+              section(style='background-color: #27221e; color: #fff; font-size: 25vh')
+                i.fa.fa-envelope-o
 
             when "sentence_per_line"
               section.listing
                 pre: code.
-                  When you write code, you put each statement on its own line. Sentence-per-line assumes the style of code. This technique single-handly transformed my writing process.
+                  When you write code, you put each statement on its own line. Sentence-per-line assumes the style of code. This technique transformed my writing process.
               section.listing
                 pre: code.
                   <strong>== Sentence-per-line</strong>
 
                   When you write code, you put each statement on its own line.
                   Sentence-per-line assumes the style of code.
-                  This technique single-handly transformed my writing process.
+                  This technique transformed my writing process.
               section.listing
                 pre: code.
                   <strong>== Sentence-per-line</strong>
 
                   Sentence-per-line assumes the style of code.
                   When you write code, you put each statement on its own line.
-                  This technique single-handly transformed my writing process.
+                  This technique transformed my writing process.
 
             when "comments"
               section.listing
@@ -180,7 +183,7 @@ html(lang='en')
                 img(src='images/couch-read.jpg')
               section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em')
                 p You can stay more fokused
-              section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em')
+              section(style='background-color: #0f0d0c; color: #fff; text-align: center; font-size: 2em')
                 h2 <span class="error">C</span>
               section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em')
                 p You can stey more focused
