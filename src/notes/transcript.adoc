@@ -16,7 +16,7 @@ You walk up to someone and you just know what to say.
 So why do we have difficulty writing?
 And what can we do about it?
 
-My theory is that the challenge we have with technical writing is not with communication itself, but rather with the constraints we impose on ourselves.
+My theory is that the challenge with technical writing is not with communication itself, but rather the constraints we impose on ourselves.
 We are suffocating the writer inside us, and as a result, our writing.
 
 Like programmers, let's hack our way out of this mess with a few tricks that get our fingers and brain working together to write fluently.
@@ -38,12 +38,14 @@ We like to say with AsciiDoc, you write once and you can publish everywhere.
 When we moved from paper and pencil to the computer to write, we gained a lot of things, but we also lost some.
 One of the things we lost was the ability to just whip out a sheet of paper and start scribbling on it.
 Or at least, this capability was lost for a few decades.
+
 All of a sudden you needed to think about a file name and where that file lived on the system.
 You needed to worry about losing your work because you didn't save (and saving forced you to deal with the file name and location issue).
 You had an interface that forced you to think about structure and formatting of your document, and features like auto-correct to prod you to fix irrelevant issues.
 In effect, you had to make the tool happy in order to write comfortably.
+
 Some then tried to write inside angled brackets like HTML or DocBook.
-We put so much clutter between you and your content that your words get lost.
+We put so much damn clutter between you and your content that your words get lost.
 
 AsciiDoc, on the other hand, is very approachable.
 It just makes sense to writers and for writers.
