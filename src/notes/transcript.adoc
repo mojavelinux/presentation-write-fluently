@@ -93,9 +93,9 @@ In doing so, you've unloaded all that information from your brain and now it has
 == Sentence-per-line
 
 Think about how you write code.
-You tend to put each statement on its own line.
+You put each statement on its own line.
 Anders Nawroth of Neo4j introduced me to the power of writing using the sentence-per-line technique which follows the same style.
-This technique has single-handly transformed my writing process, and I'm eternally grateful to him.
+This technique single-handly transformed my writing process, and I'm eternally grateful to him.
 
 In sentence per line, you write a paragraph like you would a bulleted list, except you waive the bullets.
 Like HTML, endlines in paragraph content are insignficant in AsciiDoc, so this mode of writing is supported by default.

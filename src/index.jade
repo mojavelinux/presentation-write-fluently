@@ -1,12 +1,12 @@
 -
   var hacks = [
-    "Write in plain text",
-    "Answer a question",
-    "Sentence-per-line",
-    "Sketch in comments",
-    "Power thesaurus",
-    "Visualize progress",
-    "Couch read"
+    ["plain_text", "Write in plain text"],
+    ["answer_question", "Answer a question"],
+    ["sentence_per_line", "Sentence-per-line"],
+    ["comments", "Draft in comments"],
+    ["thesaurus", "Power thesaurus"],
+    ["visualize", "Visualize progress"],
+    ["couch_read", "Couch read"]
   ];
   var bg_colors = [
     "#F8B200",
@@ -42,13 +42,145 @@ html(lang='en')
           span.secondary.line-3 to
           span.primary.line-4 Write Fluently
         p.author Dan Allen &middot; opendevise.io &middot; @mojavelinux
-      - for (var i = 1; i <= hacks.length; i++)
-        section(style="color: #{text_colors[i - 1]}; background-color: #{bg_colors[i - 1]}")
-          h2(data-index=i)=hacks[i - 1]
+      - for (var i = 0; i < hacks.length; i++)
+        section(style="color: #{text_colors[i]}; background-color: #{bg_colors[i]}")
+          h2(data-index=(i + 1))=hacks[i][1]
+        - 
+          case hacks[i][0]
+            when "plain_text"
+              section.poster
+                img(src='images/hand-writing.jpg')
+              section.minion
+                img(src='images/evil-minion.png')
+              section.listing
+                pre: code.
+                  = Writing Without Pain
+                  Author Name <author@example.org>
+
+                  A paragraph is just a paragraph.
+                  No pain involved.
+
+                  == Belgium in a nutshell
+
+                  * Beer
+                  * Chocolate
+                  * http://devoxx.be[Devoxx]
+              section.listing
+                pre: code.
+                  = Document Code Without Pain
+                  Author Name <author@example.org>
+
+                  Code is a first-class citizen!
+
+                  [source,java]
+                  ----
+                  System.out.println("AsciiDoc loves code!");
+                  ----
+
+                  TIP: Use the include directive to insert tested code.
+
+            when "answer_question"
+              section
+                img(src='images/whats-happening.png', width=500)
+              section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em; white-space: nowrap')
+                p How do I install your project?
+                textarea(style='width: 12em; height: 4em; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: "Work Sans", sans-serif')
+              section.listing
+                pre: code.
+                  == Scenarios
+                  
+                  .Invoke Gradle from a terminal
+                  Given I am a developer
+                  And I want to know how to invoke Gradle
+                  When I navigate to the get started tutorial page
+                  Then I should understand Gradle has a command-line interface
+                  And I can invoke Gradle from a terminal by typing `gradle`
+
+            when "sentence_per_line"
+              section.listing
+                pre: code.
+                  When you write code, you put each statement on its own line. Sentence-per-line assumes the style of code. This technique single-handly transformed my writing process.
+              section.listing
+                pre: code.
+                  == Sentence-per-line
+
+                  When you write code, you put each statement on its own line.
+                  Sentence-per-line assumes the style of code.
+                  This technique single-handly transformed my writing process.
+              section.listing
+                pre: code.
+                  == Sentence-per-line
+
+                  Sentence-per-line assumes the style of code.
+                  When you write code, you put each statement on its own line.
+                  This technique single-handly transformed my writing process.
+
+            when "comments"
+              section.listing
+                pre: code.
+                  Words have *impact*.
+                  What impact do your words have?
+                  Is it the right impact?
+                  //! Are your words reaching the right people?
+                  //! Do the words reach the right people?
+                  Do your words reach the right people?
+
+              section.listing
+                pre: code.
+                  Words are powerful tools in your quest to connect with users.
+                  //SW: The next point should be moved to Strategy
+                  You need to choose words wisely and with intent.
+                  That intent comes from research.
+
+              section.listing
+                pre: code.
+                  ////
+                  Don't bore the community with discussion of your product.
+                  It creates us vs them scenario, makes them outsiders.
+                  And never treat community as just a marketing channel.
+                  ////
+
+              section.listing
+                pre: code.
+                  ////
+                  .TODO
+                  * consolidate ending
+                  * make revisions to story
+                  * add point about resilience
+                  ////
+
+            when "thesaurus"
+              section.poster
+                img(src='images/old-books-on-wooden-shelf.jpg')
+              section.poster
+                figure
+                  img(src='images/power-thesaurus.jpg')
+                  figcaption http://powerthesaurus.org
+              section.poster
+                img(src='images/power-thesaurus-autocomplete.jpg')
+              section.poster
+                img(src='images/power-thesaurus-autocomplete-2.jpg')
+
+            when "visualize"
+              section.poster
+                img(src='images/atom-asciidoc-preview.png')
+              section.poster
+                img(src='images/chrome-raw-asciidoc.jpg')
+              section.poster
+                img(src='images/chrome-rendered-asciidoc.jpg')
+              section.poster
+                img(src='images/code-diff.png')
+              section.poster
+                img(src='images/rich-diff.png')
+
+            when "couch_read"
+              section.poster
+                img(src='images/couch-read.jpg')
+
       section.review
         ul
           - for (var i = 1; i <= hacks.length; i++)
-            li(data-index=i)=hacks[i - 1]
+            li(data-index=i)=hacks[i - 1][1]
       section.fin
         h2 Write with pleasure!
     script(src='build/build.js')
