@@ -10,14 +10,14 @@ ifdef::env-browser[:toc: macro]
 
 toc::[]
 
-Think about how much you've communicated with each other this week.
-You walk up to someone and you just know what to say.
 Humans are born communicators.
+Just think about how much you've communicated with each other this week.
+You walk up to someone and you just know what to say.
 So why do we have difficulty writing?
 And what can we do about it?
 
-My theory is that the challenge we have with technical writing is not with communication itself, but rather with the constraints we are imposing on ourselves.
-We are sufficiating the writer in us, and as a result, the writing.
+My theory is that the challenge we have with technical writing is not with communication itself, but rather with the constraints we impose on ourselves.
+We are sufficiating the writer inside us, and as a result, our writing.
 Like programmers, let's hack or way out of this mess with a few tricks to get our fingers and brain to work together to write fluently.
 
 == Write in plain text
@@ -258,10 +258,13 @@ You've also hacked your brain to be in the readers shoes, making a clear switch 
 Because you are far away from the keyboard and the temptation to switch over to your editor and wordsmith, you are forced to read the words that are there.
 This makes you painfully aware of what you wrote and whether it flows.
 
-I strongly encourage you to couch read all your documents.
+I strongly encourage you to “couch read” all your documents.
 
 :sectnums!:
 
 == Wrap-up
 
-(...)
+If you use the techniques I presented to you today, and combine them with your own brain hacks, you'll find that writing does not have to be difficult.
+And it can be very satisfying.
+Write with pleasure.
+Thank you.
