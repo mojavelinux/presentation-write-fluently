@@ -18,16 +18,18 @@ And what can we do about it?
 
 My theory is that the challenge we have with technical writing is not with communication itself, but rather with the constraints we impose on ourselves.
 We are suffocating the writer inside us, and as a result, our writing.
+
 Like programmers, let's hack our way out of this mess with a few tricks that get our fingers and brain working together to write fluently.
 
 == Write in plain text
 
-If you're writing in AsciiDoc, you're already using one of the best brain hacks I know to write fluently.
+Free your mind by writing in the closest format to thought, plain text.
+If you're writing in AsciiDoc, you're already using the primary brain hack I use to write fluently.
 Way to go!
 If not, your journey with AsciiDoc starts now.
+All the other hacks become possible once you start writing in AsciiDoc.
 
-Free your mind by writing in the closest format to thought, plain text.
-Using a plain text format, you efficiently encode information, transcribing it into its purest form.
+Using a plain text format like AsciiDoc, you efficiently encode information, transcribing it into its purest form.
 More important, it offers a clean separation of content and presentation.
 You can focus on content and get a beautiful result.
 And there's little to no ceremony to get going.
