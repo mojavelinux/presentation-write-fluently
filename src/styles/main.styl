@@ -116,6 +116,13 @@ section.minion
   align-items: flex-end
   img
     max-height: 25%
+  // fix scaling in Firefox
+  display: block
+  img
+    position: absolute
+    top: 50%
+    right: 0
+    transform: translateY(-50%)
 
 section.minion.bespoke-active img
   max-height: 75%
