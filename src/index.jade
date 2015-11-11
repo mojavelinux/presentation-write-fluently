@@ -54,21 +54,21 @@ html(lang='en')
                 img(src='images/evil-minion.png')
               section.listing
                 pre: code.
-                  = Writing Without Pain
-                  Author Name <author@example.org>
+                  <strong>= Writing Without Pain</strong>
+                  Author Name &lt;author@example.org&gt;
 
                   A paragraph is just a paragraph.
                   No pain involved.
 
-                  == Belgium in a nutshell
+                  <strong>== Belgium in a nutshell</strong>
 
-                  * Beer
-                  * Chocolate
-                  * http://devoxx.be[Devoxx]
+                  <strong>*</strong> Beer
+                  <strong>*</strong> Chocolate
+                  <strong>*</strong> http://devoxx.be[Devoxx]
               section.listing
                 pre: code.
-                  = Document Code Without Pain
-                  Author Name <author@example.org>
+                  <strong>= Document Code Without Pain</strong>
+                  Author Name &lt;author@example.org&gt;
 
                   Code is a first-class citizen!
 
@@ -77,7 +77,7 @@ html(lang='en')
                   System.out.println("AsciiDoc loves code!");
                   ----
 
-                  TIP: Use the include directive to insert tested code.
+                  <strong>TIP:</strong> Use the include directive to insert tested code.
 
             when "answer_question"
               section
@@ -87,7 +87,7 @@ html(lang='en')
                 textarea(style='width: 12em; height: 4em; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: "Work Sans", sans-serif')
               section.listing
                 pre: code.
-                  == Scenarios
+                  <strong>== Scenarios</strong>
                   
                   .Invoke Gradle from a terminal
                   Given I am a developer
@@ -102,14 +102,14 @@ html(lang='en')
                   When you write code, you put each statement on its own line. Sentence-per-line assumes the style of code. This technique single-handly transformed my writing process.
               section.listing
                 pre: code.
-                  == Sentence-per-line
+                  <strong>== Sentence-per-line</strong>
 
                   When you write code, you put each statement on its own line.
                   Sentence-per-line assumes the style of code.
                   This technique single-handly transformed my writing process.
               section.listing
                 pre: code.
-                  == Sentence-per-line
+                  <strong>== Sentence-per-line</strong>
 
                   Sentence-per-line assumes the style of code.
                   When you write code, you put each statement on its own line.
@@ -121,33 +121,33 @@ html(lang='en')
                   Words have *impact*.
                   What impact do your words have?
                   Is it the right impact?
-                  //! Are your words reaching the right people?
-                  //! Do the words reach the right people?
+                  <span class="comment">//! Are your words reaching the right people?</span>
+                  <span class="comment">//! Do the words reach the right people?</span>
                   Do your words reach the right people?
 
               section.listing
                 pre: code.
                   Words are powerful tools in your quest to connect with users.
-                  //SW: The next point should be moved to Strategy
+                  <span class="comment">//SW: The next point should be moved to Strategy</span>
                   You need to choose words wisely and with intent.
                   That intent comes from research.
 
               section.listing
                 pre: code.
-                  ////
+                  <span class="comment">////
                   Don't bore the community with discussion of your product.
                   It creates us vs them scenario, makes them outsiders.
                   And never treat community as just a marketing channel.
-                  ////
+                  ////</span>
 
               section.listing
                 pre: code.
-                  ////
+                  <span class="comment">////
                   .TODO
                   * consolidate ending
                   * make revisions to story
                   * add point about resilience
-                  ////
+                  ////</span>
 
             when "thesaurus"
               section.poster
@@ -176,6 +176,14 @@ html(lang='en')
             when "couch_read"
               section.poster
                 img(src='images/couch-read.jpg')
+              section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em')
+                p You can stay more fokused
+              section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em')
+                h2 <span class="error">C</span>
+              section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em')
+                p You can stey more focused
+              section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em')
+                p You can st<span class="error">e</span>y more focused
 
       section.review
         ul
