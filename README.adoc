@@ -19,7 +19,7 @@ You'll never look at a blank page the same way again, and it won't be for long.
 
 == View online
 
-https://www.youtube.com/watch?v=r6RXRi5pBXg[Video
+https://www.youtube.com/watch?v=r6RXRi5pBXg[Video]
 &middot;
 http://mojavelinux.github.io/presentation-write-fluently/index.html[Slides]
 &middot;
