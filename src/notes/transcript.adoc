@@ -2,6 +2,18 @@
 .TODO
 * without sentence per line, you have to scissor sentences
 * slide to change question "How do I install your app?" to statement / heading
+
+.Ideas
+--
+Friction / static in the structural transitions of a document
+Start with example of dotting an "i"
+Your brain registers a task it has to go back and do at the next opportunity
+If part way through writing a word (like intelligent) you decide it's the wrong word, do you still dot the "i"
+Observing myself write, I find that it's very difficult to skip this habit
+So we subtly chip away at our creative energy doing senseless busy work
+
+Maybe show a brief writing session to demonstrate how much I move things around, play with them as I write, and contrast it with how much time I'd be spending reaching for formatting & structural tools.
+--
 ////
 = 7 Ways to Hack Your Brain to Write Fluently: Transcript
 :docinfo: private-head
