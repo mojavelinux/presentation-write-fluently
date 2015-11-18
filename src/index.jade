@@ -88,8 +88,11 @@ html(lang='en')
               section
                 img(src='images/whats-happening.png', width=500)
               section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em; white-space: nowrap')
-                p How do I install your app?
-                textarea(style='width: 12em; height: 4em; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: "Work Sans", sans-serif')
+                p How do I install an app?
+                textarea(style='font-size: 0.5em; width: 50%; height: 25%; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: "Work Sans", sans-serif')
+              section(style='background-color: #27221e; color: #fff; text-align: center; font-size: 2em; white-space: nowrap')
+                p Installing an app
+                textarea(style='font-size: 0.5em; width: 50%; height: 25%; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: "Work Sans", sans-serif') Installing apps from the ACME Store is easy. Just navigate to the entry in the store and click on “Add me”.
               //section.listing
               //  pre: code.
               //    <strong>== Scenarios</strong>
@@ -106,7 +109,14 @@ html(lang='en')
             when "sentence_per_line"
               section.listing
                 pre: code.
-                  When you write code, you put each statement on its own line. Sentence-per-line assumes the style of code. This technique transformed my writing process.
+                  <strong>== Traditional</strong>
+
+                  When you write text, you cram all statements together on a single line. This makes reordering sentences difficult. If you hardwrap the text, it leads to reflows.
+              section.listing
+                pre: code.
+                  <strong>== Traditional</strong>
+
+                  When you write text, you cram all statements together on a single line. ✂This makes reordering sentences difficult.✂ If you hardwrap the text, it leads to reflows.
               section.listing
                 pre: code.
                   <strong>== Sentence-per-line</strong>
@@ -133,6 +143,16 @@ html(lang='en')
                   ////</span>
               section.listing
                 pre: code.
+                  Don't bore the community with discussion of your product.
+                  It creates us vs them scenario, makes them outsiders.
+                  And never treat community as just a marketing channel.
+              section.listing
+                pre: code.
+                  Don't bore the community with discussion of your product.
+                  <span class="comment">// It creates us vs them scenario, makes them outsiders.</span>
+                  And never treat community as just a marketing channel.
+              section.listing
+                pre: code.
                   <span class="comment">////
                   Don't bore the community with discussion of your product.
                   It creates us vs them scenario, makes them outsiders.
@@ -141,7 +161,7 @@ html(lang='en')
               section.listing
                 pre: code.
                   Words are powerful tools in your quest to connect with users.
-                  <span class="comment">//SW: The next point should be moved to Strategy</span>
+                  <span class="comment">//SW The next point should be moved to Strategy</span>
                   You need to choose words wisely and with intent.
                   That intent comes from research.
               section.listing
