@@ -53,8 +53,12 @@ System.out.println("AsciiDoc loves code!");
       </section>
       <section><img src="images/whats-happening.png" width="500"></section>
       <section style="background-color: #27221e; color: #fff; text-align: center; font-size: 2em; white-space: nowrap">
-        <p>How do I install your app?</p>
-        <textarea style="width: 12em; height: 4em; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: &quot;Work Sans&quot;, sans-serif"></textarea>
+        <p>How do I install an app?</p>
+        <textarea style="font-size: 0.5em; width: 50%; height: 25%; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: &quot;Work Sans&quot;, sans-serif"></textarea>
+      </section>
+      <section style="background-color: #27221e; color: #fff; text-align: center; font-size: 2em; white-space: nowrap">
+        <p>Installing an app</p>
+        <textarea style="font-size: 0.5em; width: 50%; height: 25%; background-color: transparent; border-width: 1px; border-radius: 4px; font-family: &quot;Work Sans&quot;, sans-serif">Installing apps from the ACME Store is easy. Just navigate to the entry in the store and click on “Add me”.</textarea>
       </section>
       <!--section.listing-->
       <!--  pre: code.-->
@@ -71,7 +75,14 @@ System.out.println("AsciiDoc loves code!");
         <h2 data-index='3'>Sentence-per-line</h2>
       </section>
       <section class="listing">
-        <pre><code>When you write code, you put each statement on its own line. Sentence-per-line assumes the style of code. This technique transformed my writing process.</code></pre>
+        <pre><code><strong>== Traditional</strong>
+
+When you write text, you cram all statements together on a single line. This makes reordering sentences difficult. If you hardwrap the text, it leads to reflows.</code></pre>
+      </section>
+      <section class="listing">
+        <pre><code><strong>== Traditional</strong>
+
+When you write text, you cram all statements together on a single line. ✂This makes reordering sentences difficult.✂ If you hardwrap the text, it leads to reflows.</code></pre>
       </section>
       <section class="listing">
         <pre><code><strong>== Sentence-per-line</strong>
@@ -100,6 +111,16 @@ This technique transformed my writing process.
 ////</span></code></pre>
       </section>
       <section class="listing">
+        <pre><code>Don't bore the community with discussion of your product.
+It creates us vs them scenario, makes them outsiders.
+And never treat community as just a marketing channel.</code></pre>
+      </section>
+      <section class="listing">
+        <pre><code>Don't bore the community with discussion of your product.
+<span class="comment">// It creates us vs them scenario, makes them outsiders.</span>
+And never treat community as just a marketing channel.</code></pre>
+      </section>
+      <section class="listing">
         <pre><code><span class="comment">////
 Don't bore the community with discussion of your product.
 It creates us vs them scenario, makes them outsiders.
@@ -108,7 +129,7 @@ And never treat community as just a marketing channel.
       </section>
       <section class="listing">
         <pre><code>Words are powerful tools in your quest to connect with users.
-<span class="comment">//SW: The next point should be moved to Strategy</span>
+<span class="comment">//SW The next point should be moved to Strategy</span>
 You need to choose words wisely and with intent.
 That intent comes from research.</code></pre>
       </section>
@@ -136,6 +157,7 @@ Do your words reach the right people?
         <pre><code>Words %%%% people.</code></pre>
       </section>
       <section class="poster"><img src="images/power-thesaurus-autocomplete-2.jpg"></section>
+      <section class="poster"><img src="images/power-thesaurus-results.jpg"></section>
       <section class="listing">
         <pre><code>Words <strong>move</strong> people.
 </code></pre>
