@@ -111,11 +111,15 @@ In doing so, you've unloaded all that information from your brain and now it has
 
 == Sentence-per-line
 
+We tend to write by cramming sentences together on one long line.
+Worse is if you use arbitrary wrapping.
+This leads to reflows.
+You need to scissor sentences to move them around.
+
 Think about how you write code.
 You put each statement on its own line.
 Anders Nawroth of Neo4j introduced me to the power of writing using the sentence-per-line technique which follows the same style.
 This technique transformed my writing process.
-//...and I'm eternally grateful to him.
 
 In sentence per line, you write a paragraph like you would a bulleted list, except you waive the bullets.
 Like HTML, endlines in paragraph content are insignificant in AsciiDoc, so this mode of writing is supported by default.
@@ -130,7 +134,6 @@ Like HTML, endlines in paragraph content are insignificant in AsciiDoc, so this 
 - encourages shorter sentences; edit with a knife!
 - warms up your writing
 - helps you think about what you're writing
-
 
 Highly recommended.
 It also makes comments more effective.
